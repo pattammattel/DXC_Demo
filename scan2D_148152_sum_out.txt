@@ -1,0 +1,751 @@
+
+ name       	 summed area 	 error in %
+ S_K        	 1936952.885 	 3.566%
+ S_K        	 1936952.885 	 14.459%
+ Cr_K       	 2361743.293 	 2.444%
+ Ca_K       	 15292.58 	 29.426%
+ Fe_K       	 143498626.179 	 0.298%
+ Si_K       	 914056.916 	 3.742%
+ Cl_K       	 9874.773 	 46.636%
+ Cu_K       	 231301.715 	 7.908%
+ As_K       	 72050.068 	 14.459%
+ P_K        	 546635.573 	 4.999%
+ Zn_K       	 43140.569 	 18.106%
+ Mn_K       	 308321.715 	 9.49%
+ Ni_K       	 3039481.286 	 2.061%
+ Ar_K       	 3981.198 	 58.674%
+ compton    	 203175.002 	 15.283%
+ elastic    	 316377.058 	 10.474%
+
+[[Fit Statistics]]
+    # fitting method   = leastsq
+    # function evals   = 205
+    # data points      = 1180
+    # variables        = 24
+    chi-square         = 1465908.69
+    reduced chi-square = 1268.08710
+    Akaike info crit   = 8455.16507
+    Bayesian info crit = 8576.92354
+[[Variables]]
+    Ar_ka1_area:                     24.0173741 +/- 14.0920409 (58.67%) (init = 1000)
+    Ar_ka1_center:                   2.9574 (fixed)
+    Ar_ka1_delta_center:             0 (fixed)
+    Ar_ka1_delta_sigma:              0 (fixed)
+    Ar_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ar_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ar_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ar_ka1_epsilon:                  3.85 (fixed)
+    Ar_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ar_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ar_ka1_ratio:                    1 (fixed)
+    Ar_ka1_ratio_adjust:             1 (fixed)
+    Ar_ka2_area:                     24.0173741 +/- 14.0920409 (58.67%) == 'Ar_ka1_area'
+    Ar_ka2_center:                   2.9553 (fixed)
+    Ar_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Ar_ka1_delta_center'
+    Ar_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Ar_ka1_delta_sigma'
+    Ar_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ar_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ar_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ar_ka2_epsilon:                  3.85 (fixed)
+    Ar_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ar_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ar_ka2_ratio:                    0.5042353 (fixed)
+    Ar_ka2_ratio_adjust:             1 (fixed)
+    Ar_kb1_area:                     24.0173741 +/- 14.0920409 (58.67%) == 'Ar_ka1_area'
+    Ar_kb1_center:                   3.1902 (fixed)
+    Ar_kb1_delta_center:             0 (fixed)
+    Ar_kb1_delta_sigma:              0 (fixed)
+    Ar_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ar_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ar_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ar_kb1_epsilon:                  3.85 (fixed)
+    Ar_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ar_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ar_kb1_ratio:                    0.1016958 (fixed)
+    Ar_kb1_ratio_adjust:             1 (fixed)
+    Ar_kb3_area:                     24.0173741 +/- 14.0920409 (58.67%) == 'Ar_ka1_area'
+    Ar_kb3_center:                   3.1901 (fixed)
+    Ar_kb3_delta_center:             0 (fixed)
+    Ar_kb3_delta_sigma:              0 (fixed)
+    Ar_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ar_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ar_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ar_kb3_epsilon:                  3.85 (fixed)
+    Ar_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ar_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ar_kb3_ratio:                    0.05170156 (fixed)
+    Ar_kb3_ratio_adjust:             1 (fixed)
+    As_ka1_area:                     413.495134 +/- 59.7881228 (14.46%) (init = 1000)
+    As_ka1_center:                   10.5436 (fixed)
+    As_ka1_delta_center:             0 (fixed)
+    As_ka1_delta_sigma:              0 (fixed)
+    As_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    As_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    As_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    As_ka1_epsilon:                  3.85 (fixed)
+    As_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    As_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    As_ka1_ratio:                    1 (fixed)
+    As_ka1_ratio_adjust:             1 (fixed)
+    As_ka2_area:                     413.495134 +/- 59.7881229 (14.46%) == 'As_ka1_area'
+    As_ka2_center:                   10.5081 (fixed)
+    As_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'As_ka1_delta_center'
+    As_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'As_ka1_delta_sigma'
+    As_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    As_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    As_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    As_ka2_epsilon:                  3.85 (fixed)
+    As_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    As_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    As_ka2_ratio:                    0.5153324 (fixed)
+    As_ka2_ratio_adjust:             1 (fixed)
+    As_kb1_area:                     413.495134 +/- 59.7881229 (14.46%) == 'As_ka1_area'
+    As_kb1_center:                   11.7262 (fixed)
+    As_kb1_delta_center:             0 (fixed)
+    As_kb1_delta_sigma:              0 (fixed)
+    As_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    As_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    As_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    As_kb1_epsilon:                  3.85 (fixed)
+    As_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    As_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    As_kb1_ratio:                    0.1467093 (fixed)
+    As_kb1_ratio_adjust:             1 (fixed)
+    As_kb2_area:                     413.495134 +/- 59.7881229 (14.46%) == 'As_ka1_area'
+    As_kb2_center:                   11.8642 (fixed)
+    As_kb2_delta_center:             0 (fixed)
+    As_kb2_delta_sigma:              0 (fixed)
+    As_kb2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    As_kb2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    As_kb2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    As_kb2_epsilon:                  3.85 (fixed)
+    As_kb2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    As_kb2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    As_kb2_ratio:                    0.005392953 (fixed)
+    As_kb2_ratio_adjust:             1 (fixed)
+    As_kb3_area:                     413.495134 +/- 59.7881229 (14.46%) == 'As_ka1_area'
+    As_kb3_center:                   11.7203 (fixed)
+    As_kb3_delta_center:             0 (fixed)
+    As_kb3_delta_sigma:              0 (fixed)
+    As_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    As_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    As_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    As_kb3_epsilon:                  3.85 (fixed)
+    As_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    As_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    As_kb3_ratio:                    0.07503011 (fixed)
+    As_kb3_ratio_adjust:             1 (fixed)
+    Ca_ka1_area:                     90.2139866 +/- 26.5465334 (29.43%) (init = 1000)
+    Ca_ka1_center:                   3.6917 (fixed)
+    Ca_ka1_delta_center:             0 (fixed)
+    Ca_ka1_delta_sigma:              0 (fixed)
+    Ca_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ca_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ca_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ca_ka1_epsilon:                  3.85 (fixed)
+    Ca_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ca_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ca_ka1_ratio:                    1 (fixed)
+    Ca_ka1_ratio_adjust:             1 (fixed)
+    Ca_ka2_area:                     90.2139866 +/- 26.5465334 (29.43%) == 'Ca_ka1_area'
+    Ca_ka2_center:                   3.6881 (fixed)
+    Ca_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Ca_ka1_delta_center'
+    Ca_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Ca_ka1_delta_sigma'
+    Ca_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ca_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ca_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ca_ka2_epsilon:                  3.85 (fixed)
+    Ca_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ca_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ca_ka2_ratio:                    0.5059161 (fixed)
+    Ca_ka2_ratio_adjust:             1 (fixed)
+    Ca_kb1_area:                     90.2139866 +/- 26.5465334 (29.43%) == 'Ca_ka1_area'
+    Ca_kb1_center:                   4.0127 (fixed)
+    Ca_kb1_delta_center:             0 (fixed)
+    Ca_kb1_delta_sigma:              0 (fixed)
+    Ca_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ca_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ca_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ca_kb1_epsilon:                  3.85 (fixed)
+    Ca_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ca_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ca_kb1_ratio:                    0.1261527 (fixed)
+    Ca_kb1_ratio_adjust:             1 (fixed)
+    Ca_kb3_area:                     90.2139866 +/- 26.5465334 (29.43%) == 'Ca_ka1_area'
+    Ca_kb3_center:                   4.0127 (fixed)
+    Ca_kb3_delta_center:             0 (fixed)
+    Ca_kb3_delta_sigma:              0 (fixed)
+    Ca_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ca_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ca_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ca_kb3_epsilon:                  3.85 (fixed)
+    Ca_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ca_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ca_kb3_ratio:                    0.06307635 (fixed)
+    Ca_kb3_ratio_adjust:             1 (fixed)
+    Cl_ka1_area:                     60.6972693 +/- 28.3069389 (46.64%) (init = 1000)
+    Cl_ka1_center:                   2.6224 (fixed)
+    Cl_ka1_delta_center:             0 (fixed)
+    Cl_ka1_delta_sigma:              0 (fixed)
+    Cl_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cl_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cl_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cl_ka1_epsilon:                  3.85 (fixed)
+    Cl_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cl_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cl_ka1_ratio:                    1 (fixed)
+    Cl_ka1_ratio_adjust:             1 (fixed)
+    Cl_ka2_area:                     60.6972693 +/- 28.3069388 (46.64%) == 'Cl_ka1_area'
+    Cl_ka2_center:                   2.6208 (fixed)
+    Cl_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Cl_ka1_delta_center'
+    Cl_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Cl_ka1_delta_sigma'
+    Cl_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cl_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cl_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cl_ka2_epsilon:                  3.85 (fixed)
+    Cl_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cl_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cl_ka2_ratio:                    0.5053769 (fixed)
+    Cl_ka2_ratio_adjust:             1 (fixed)
+    Cl_kb1_area:                     60.6972693 +/- 28.3069388 (46.64%) == 'Cl_ka1_area'
+    Cl_kb1_center:                   2.8156 (fixed)
+    Cl_kb1_delta_center:             0 (fixed)
+    Cl_kb1_delta_sigma:              0 (fixed)
+    Cl_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cl_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cl_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cl_kb1_epsilon:                  3.85 (fixed)
+    Cl_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cl_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cl_kb1_ratio:                    0.0806449 (fixed)
+    Cl_kb1_ratio_adjust:             1 (fixed)
+    Cl_kb3_area:                     60.6972693 +/- 28.3069388 (46.64%) == 'Cl_ka1_area'
+    Cl_kb3_center:                   2.8156 (fixed)
+    Cl_kb3_delta_center:             0 (fixed)
+    Cl_kb3_delta_sigma:              0 (fixed)
+    Cl_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cl_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cl_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cl_kb3_epsilon:                  3.85 (fixed)
+    Cl_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cl_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cl_kb3_ratio:                    0.04086746 (fixed)
+    Cl_kb3_ratio_adjust:             1 (fixed)
+    coherent_sct_energy:             11.985 (fixed)
+    compton_amplitude:               2037.12547 +/- 311.334983 (15.28%) (init = 1699.996)
+    compton_angle:                   88.4464755 +/- 7.40991141 (8.38%) (init = 85)
+    compton_f_step:                  0.001 (fixed)
+    compton_f_tail:                  0.14560480 +/- 0.10325107 (70.91%) (init = 0.2)
+    compton_fwhm_corr:               1.70676800 +/- 0.30759288 (18.02%) (init = 1.85)
+    compton_gamma:                   3 (fixed)
+    compton_hi_f_tail:               0.0001 (fixed)
+    compton_hi_gamma:                0.027 (fixed)
+    Cr_ka1_area:                     13864.0030 +/- 338.856654 (2.44%) (init = 1000)
+    Cr_ka1_center:                   5.4147 (fixed)
+    Cr_ka1_delta_center:             0 (fixed)
+    Cr_ka1_delta_sigma:              0 (fixed)
+    Cr_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cr_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cr_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cr_ka1_epsilon:                  3.85 (fixed)
+    Cr_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cr_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cr_ka1_ratio:                    1 (fixed)
+    Cr_ka1_ratio_adjust:             1 (fixed)
+    Cr_ka2_area:                     13864.0030 +/- 338.856653 (2.44%) == 'Cr_ka1_area'
+    Cr_ka2_center:                   5.4055 (fixed)
+    Cr_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Cr_ka1_delta_center'
+    Cr_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Cr_ka1_delta_sigma'
+    Cr_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cr_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cr_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cr_ka2_epsilon:                  3.85 (fixed)
+    Cr_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cr_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cr_ka2_ratio:                    0.5093096 (fixed)
+    Cr_ka2_ratio_adjust:             1 (fixed)
+    Cr_kb1_area:                     13864.0030 +/- 338.856653 (2.44%) == 'Cr_ka1_area'
+    Cr_kb1_center:                   5.9467 (fixed)
+    Cr_kb1_delta_center:             0 (fixed)
+    Cr_kb1_delta_sigma:              0 (fixed)
+    Cr_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cr_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cr_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cr_kb1_epsilon:                  3.85 (fixed)
+    Cr_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cr_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cr_kb1_ratio:                    0.1290735 (fixed)
+    Cr_kb1_ratio_adjust:             1 (fixed)
+    Cr_kb3_area:                     13864.0030 +/- 338.856653 (2.44%) == 'Cr_ka1_area'
+    Cr_kb3_center:                   5.9467 (fixed)
+    Cr_kb3_delta_center:             0 (fixed)
+    Cr_kb3_delta_sigma:              0 (fixed)
+    Cr_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cr_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cr_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cr_kb3_epsilon:                  3.85 (fixed)
+    Cr_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cr_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cr_kb3_ratio:                    0.06512444 (fixed)
+    Cr_kb3_ratio_adjust:             1 (fixed)
+    Cu_ka1_area:                     1348.08231 +/- 106.605118 (7.91%) (init = 1000)
+    Cu_ka1_center:                   8.0478 (fixed)
+    Cu_ka1_delta_center:             0 (fixed)
+    Cu_ka1_delta_sigma:              0 (fixed)
+    Cu_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cu_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cu_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cu_ka1_epsilon:                  3.85 (fixed)
+    Cu_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cu_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cu_ka1_ratio:                    1 (fixed)
+    Cu_ka1_ratio_adjust:             1 (fixed)
+    Cu_ka2_area:                     1348.08231 +/- 106.605118 (7.91%) == 'Cu_ka1_area'
+    Cu_ka2_center:                   8.0279 (fixed)
+    Cu_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Cu_ka1_delta_center'
+    Cu_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Cu_ka1_delta_sigma'
+    Cu_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cu_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cu_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cu_ka2_epsilon:                  3.85 (fixed)
+    Cu_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cu_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cu_ka2_ratio:                    0.5132371 (fixed)
+    Cu_ka2_ratio_adjust:             1 (fixed)
+    Cu_kb1_area:                     1348.08231 +/- 106.605118 (7.91%) == 'Cu_ka1_area'
+    Cu_kb1_center:                   8.9053 (fixed)
+    Cu_kb1_delta_center:             0 (fixed)
+    Cu_kb1_delta_sigma:              0 (fixed)
+    Cu_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cu_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cu_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cu_kb1_epsilon:                  3.85 (fixed)
+    Cu_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cu_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cu_kb1_ratio:                    0.1341043 (fixed)
+    Cu_kb1_ratio_adjust:             1 (fixed)
+    Cu_kb3_area:                     1348.08231 +/- 106.605118 (7.91%) == 'Cu_ka1_area'
+    Cu_kb3_center:                   8.9053 (fixed)
+    Cu_kb3_delta_center:             0 (fixed)
+    Cu_kb3_delta_sigma:              0 (fixed)
+    Cu_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Cu_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Cu_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Cu_kb3_epsilon:                  3.85 (fixed)
+    Cu_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Cu_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Cu_kb3_ratio:                    0.06844191 (fixed)
+    Cu_kb3_ratio_adjust:             1 (fixed)
+    e_linear:                        0.01 (fixed)
+    e_offset:                       -0.01 (fixed)
+    e_quadratic:                     0 (fixed)
+    elastic_coherent_sct_amplitude:  3163.77058 +/- 331.374593 (10.47%) (init = 2500)
+    elastic_coherent_sct_energy:     11.9850000 +/- 0.00000000 (0.00%) == 'coherent_sct_energy'
+    elastic_e_linear:                0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    elastic_e_offset:               -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    elastic_e_quadratic:             0.00000000 +/- 0.00000000  == 'e_quadratic'
+    elastic_epsilon:                 3.85 (fixed)
+    elastic_fwhm_fanoprime:          1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    elastic_fwhm_offset:             0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    epsilon:                         3.85 (fixed)
+    Fe_ka1_area:                     837414.933 +/- 2492.74958 (0.30%) (init = 1000)
+    Fe_ka1_center:                   6.4039 (fixed)
+    Fe_ka1_delta_center:             0 (fixed)
+    Fe_ka1_delta_sigma:              0 (fixed)
+    Fe_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Fe_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Fe_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Fe_ka1_epsilon:                  3.85 (fixed)
+    Fe_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Fe_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Fe_ka1_ratio:                    1 (fixed)
+    Fe_ka1_ratio_adjust:             1 (fixed)
+    Fe_ka2_area:                     837414.933 +/- 2492.74958 (0.30%) == 'Fe_ka1_area'
+    Fe_ka2_center:                   6.3909 (fixed)
+    Fe_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Fe_ka1_delta_center'
+    Fe_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Fe_ka1_delta_sigma'
+    Fe_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Fe_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Fe_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Fe_ka2_epsilon:                  3.85 (fixed)
+    Fe_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Fe_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Fe_ka2_ratio:                    0.5106328 (fixed)
+    Fe_ka2_ratio_adjust:             1 (fixed)
+    Fe_kb1_area:                     837414.933 +/- 2492.74958 (0.30%) == 'Fe_ka1_area'
+    Fe_kb1_center:                   7.058 (fixed)
+    Fe_kb1_delta_center:             0 (fixed)
+    Fe_kb1_delta_sigma:              0 (fixed)
+    Fe_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Fe_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Fe_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Fe_kb1_epsilon:                  3.85 (fixed)
+    Fe_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Fe_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Fe_kb1_ratio:                    0.1346197 (fixed)
+    Fe_kb1_ratio_adjust:             1 (fixed)
+    Fe_kb3_area:                     837414.933 +/- 2492.74958 (0.30%) == 'Fe_ka1_area'
+    Fe_kb3_center:                   7.058 (fixed)
+    Fe_kb3_delta_center:             0 (fixed)
+    Fe_kb3_delta_sigma:              0 (fixed)
+    Fe_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Fe_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Fe_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Fe_kb3_epsilon:                  3.85 (fixed)
+    Fe_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Fe_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Fe_kb3_ratio:                    0.06833799 (fixed)
+    Fe_kb3_ratio_adjust:             1 (fixed)
+    fwhm_fanoprime:                  1.5111e-04 +/- 4.3373e-06 (2.87%) (init = 0.00013)
+    fwhm_offset:                     0.06669407 +/- 0.00437452 (6.56%) (init = 0.08)
+    Mn_ka1_area:                     1801.09213 +/- 170.926650 (9.49%) (init = 1000)
+    Mn_ka1_center:                   5.8987 (fixed)
+    Mn_ka1_delta_center:             0 (fixed)
+    Mn_ka1_delta_sigma:              0 (fixed)
+    Mn_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Mn_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Mn_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Mn_ka1_epsilon:                  3.85 (fixed)
+    Mn_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Mn_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Mn_ka1_ratio:                    1 (fixed)
+    Mn_ka1_ratio_adjust:             1 (fixed)
+    Mn_ka2_area:                     1801.09213 +/- 170.926650 (9.49%) == 'Mn_ka1_area'
+    Mn_ka2_center:                   5.8876 (fixed)
+    Mn_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Mn_ka1_delta_center'
+    Mn_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Mn_ka1_delta_sigma'
+    Mn_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Mn_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Mn_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Mn_ka2_epsilon:                  3.85 (fixed)
+    Mn_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Mn_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Mn_ka2_ratio:                    0.5097234 (fixed)
+    Mn_ka2_ratio_adjust:             1 (fixed)
+    Mn_kb1_area:                     1801.09213 +/- 170.926650 (9.49%) == 'Mn_ka1_area'
+    Mn_kb1_center:                   6.4904 (fixed)
+    Mn_kb1_delta_center:             0 (fixed)
+    Mn_kb1_delta_sigma:              0 (fixed)
+    Mn_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Mn_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Mn_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Mn_kb1_epsilon:                  3.85 (fixed)
+    Mn_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Mn_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Mn_kb1_ratio:                    0.1341071 (fixed)
+    Mn_kb1_ratio_adjust:             1 (fixed)
+    Mn_kb3_area:                     1801.09213 +/- 170.926650 (9.49%) == 'Mn_ka1_area'
+    Mn_kb3_center:                   6.4904 (fixed)
+    Mn_kb3_delta_center:             0 (fixed)
+    Mn_kb3_delta_sigma:              0 (fixed)
+    Mn_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Mn_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Mn_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Mn_kb3_epsilon:                  3.85 (fixed)
+    Mn_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Mn_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Mn_kb3_ratio:                    0.06802931 (fixed)
+    Mn_kb3_ratio_adjust:             1 (fixed)
+    Ni_ka1_area:                     17703.7627 +/- 364.884111 (2.06%) (init = 1000)
+    Ni_ka1_center:                   7.4781 (fixed)
+    Ni_ka1_delta_center:             0 (fixed)
+    Ni_ka1_delta_sigma:              0 (fixed)
+    Ni_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ni_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ni_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ni_ka1_epsilon:                  3.85 (fixed)
+    Ni_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ni_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ni_ka1_ratio:                    1 (fixed)
+    Ni_ka1_ratio_adjust:             1 (fixed)
+    Ni_ka2_area:                     17703.7627 +/- 364.884111 (2.06%) == 'Ni_ka1_area'
+    Ni_ka2_center:                   7.4609 (fixed)
+    Ni_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Ni_ka1_delta_center'
+    Ni_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Ni_ka1_delta_sigma'
+    Ni_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ni_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ni_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ni_ka2_epsilon:                  3.85 (fixed)
+    Ni_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ni_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ni_ka2_ratio:                    0.5118291 (fixed)
+    Ni_ka2_ratio_adjust:             1 (fixed)
+    Ni_kb1_area:                     17703.7627 +/- 364.884111 (2.06%) == 'Ni_ka1_area'
+    Ni_kb1_center:                   8.2647 (fixed)
+    Ni_kb1_delta_center:             0 (fixed)
+    Ni_kb1_delta_sigma:              0 (fixed)
+    Ni_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ni_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ni_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ni_kb1_epsilon:                  3.85 (fixed)
+    Ni_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ni_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ni_kb1_ratio:                    0.1358033 (fixed)
+    Ni_kb1_ratio_adjust:             1 (fixed)
+    Ni_kb3_area:                     17703.7627 +/- 364.884111 (2.06%) == 'Ni_ka1_area'
+    Ni_kb3_center:                   8.2647 (fixed)
+    Ni_kb3_delta_center:             0 (fixed)
+    Ni_kb3_delta_sigma:              0 (fixed)
+    Ni_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Ni_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Ni_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Ni_kb3_epsilon:                  3.85 (fixed)
+    Ni_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Ni_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Ni_kb3_ratio:                    0.06922364 (fixed)
+    Ni_kb3_ratio_adjust:             1 (fixed)
+    P_ka1_area:                      3472.52242 +/- 173.584069 (5.00%) (init = 1000)
+    P_ka1_center:                    2.0102 (fixed)
+    P_ka1_delta_center:              0 (fixed)
+    P_ka1_delta_sigma:               0 (fixed)
+    P_ka1_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    P_ka1_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    P_ka1_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    P_ka1_epsilon:                   3.85 (fixed)
+    P_ka1_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    P_ka1_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    P_ka1_ratio:                     1 (fixed)
+    P_ka1_ratio_adjust:              1 (fixed)
+    P_ka2_area:                      3472.52242 +/- 173.584069 (5.00%) == 'P_ka1_area'
+    P_ka2_center:                    2.0093 (fixed)
+    P_ka2_delta_center:              0.00000000 +/- 0.00000000  == 'P_ka1_delta_center'
+    P_ka2_delta_sigma:               0.00000000 +/- 0.00000000  == 'P_ka1_delta_sigma'
+    P_ka2_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    P_ka2_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    P_ka2_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    P_ka2_epsilon:                   3.85 (fixed)
+    P_ka2_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    P_ka2_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    P_ka2_ratio:                     0.5071782 (fixed)
+    P_ka2_ratio_adjust:              1 (fixed)
+    P_kb1_area:                      3472.52242 +/- 173.584069 (5.00%) == 'P_ka1_area'
+    P_kb1_center:                    2.1356 (fixed)
+    P_kb1_delta_center:              0 (fixed)
+    P_kb1_delta_sigma:               0 (fixed)
+    P_kb1_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    P_kb1_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    P_kb1_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    P_kb1_epsilon:                   3.85 (fixed)
+    P_kb1_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    P_kb1_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    P_kb1_ratio:                     0.04450146 (fixed)
+    P_kb1_ratio_adjust:              1 (fixed)
+    P_kb3_area:                      3472.52242 +/- 173.584069 (5.00%) == 'P_ka1_area'
+    P_kb3_center:                    2.1356 (fixed)
+    P_kb3_delta_center:              0 (fixed)
+    P_kb3_delta_sigma:               0 (fixed)
+    P_kb3_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    P_kb3_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    P_kb3_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    P_kb3_epsilon:                   3.85 (fixed)
+    P_kb3_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    P_kb3_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    P_kb3_ratio:                     0.02249473 (fixed)
+    P_kb3_ratio_adjust:              1 (fixed)
+    S_ka1_area:                      6400.15779 +/- 228.256584 (3.57%) (init = 1000)
+    S_ka1_center:                    2.3078 (fixed)
+    S_ka1_delta_center:              0 (fixed)
+    S_ka1_delta_sigma:               0 (fixed)
+    S_ka1_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    S_ka1_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    S_ka1_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    S_ka1_epsilon:                   3.85 (fixed)
+    S_ka1_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    S_ka1_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    S_ka1_ratio:                     1 (fixed)
+    S_ka1_ratio_adjust:              1 (fixed)
+    S_ka2_area:                      6400.15779 +/- 228.256584 (3.57%) == 'S_ka1_area'
+    S_ka2_center:                    2.3066 (fixed)
+    S_ka2_delta_center:              0.00000000 +/- 0.00000000  == 'S_ka1_delta_center'
+    S_ka2_delta_sigma:               0.00000000 +/- 0.00000000  == 'S_ka1_delta_sigma'
+    S_ka2_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    S_ka2_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    S_ka2_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    S_ka2_epsilon:                   3.85 (fixed)
+    S_ka2_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    S_ka2_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    S_ka2_ratio:                     0.5052982 (fixed)
+    S_ka2_ratio_adjust:              1 (fixed)
+    S_kb1_area:                      6400.15779 +/- 228.256584 (3.57%) == 'S_ka1_area'
+    S_kb1_center:                    2.464 (fixed)
+    S_kb1_delta_center:              0 (fixed)
+    S_kb1_delta_sigma:               0 (fixed)
+    S_kb1_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    S_kb1_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    S_kb1_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    S_kb1_epsilon:                   3.85 (fixed)
+    S_kb1_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    S_kb1_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    S_kb1_ratio:                     0.06183573 (fixed)
+    S_kb1_ratio_adjust:              1 (fixed)
+    S_kb3_area:                      6400.15779 +/- 228.256584 (3.57%) == 'S_ka1_area'
+    S_kb3_center:                    2.464 (fixed)
+    S_kb3_delta_center:              0 (fixed)
+    S_kb3_delta_sigma:               0 (fixed)
+    S_kb3_e_linear:                  0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    S_kb3_e_offset:                 -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    S_kb3_e_quadratic:               0.00000000 +/- 0.00000000  == 'e_quadratic'
+    S_kb3_epsilon:                   3.85 (fixed)
+    S_kb3_fwhm_fanoprime:            1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    S_kb3_fwhm_offset:               0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    S_kb3_ratio:                     0.03110166 (fixed)
+    S_kb3_ratio_adjust:              1 (fixed)
+    Si_ka1_area:                     5916.14198 +/- 221.357121 (3.74%) (init = 1000)
+    Si_ka1_center:                   1.74 (fixed)
+    Si_ka1_delta_center:             0 (fixed)
+    Si_ka1_delta_sigma:              0 (fixed)
+    Si_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Si_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Si_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Si_ka1_epsilon:                  3.85 (fixed)
+    Si_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Si_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Si_ka1_ratio:                    1 (fixed)
+    Si_ka1_ratio_adjust:             1 (fixed)
+    Si_ka2_area:                     5916.14198 +/- 221.357121 (3.74%) == 'Si_ka1_area'
+    Si_ka2_center:                   1.7394 (fixed)
+    Si_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Si_ka1_delta_center'
+    Si_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Si_ka1_delta_sigma'
+    Si_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Si_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Si_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Si_ka2_epsilon:                  3.85 (fixed)
+    Si_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Si_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Si_ka2_ratio:                    0.5033063 (fixed)
+    Si_ka2_ratio_adjust:             1 (fixed)
+    Si_kb1_area:                     5916.14198 +/- 221.357121 (3.74%) == 'Si_ka1_area'
+    Si_kb1_center:                   1.8359 (fixed)
+    Si_kb1_delta_center:             0 (fixed)
+    Si_kb1_delta_sigma:              0 (fixed)
+    Si_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Si_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Si_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Si_kb1_epsilon:                  3.85 (fixed)
+    Si_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Si_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Si_kb1_ratio:                    0.02781039 (fixed)
+    Si_kb1_ratio_adjust:             1 (fixed)
+    Si_kb3_area:                     5916.14198 +/- 221.357121 (3.74%) == 'Si_ka1_area'
+    Si_kb3_center:                   1.8359 (fixed)
+    Si_kb3_delta_center:             0 (fixed)
+    Si_kb3_delta_sigma:              0 (fixed)
+    Si_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Si_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Si_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Si_kb3_epsilon:                  3.85 (fixed)
+    Si_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Si_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Si_kb3_ratio:                    0.0139052 (fixed)
+    Si_kb3_ratio_adjust:             1 (fixed)
+    Userpeak1_area:                  4064.29171 +/- 227.042616 (5.59%) (init = 1000)
+    Userpeak1_center:                5 (fixed)
+    Userpeak1_delta_center:         -0.3375045 (fixed)
+    Userpeak1_delta_sigma:           0 (fixed)
+    Userpeak1_e_linear:              0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Userpeak1_e_offset:             -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Userpeak1_e_quadratic:           0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Userpeak1_epsilon:               3.85 (fixed)
+    Userpeak1_fwhm_fanoprime:        1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Userpeak1_fwhm_offset:           0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Userpeak1_ratio:                 1 (fixed)
+    Userpeak1_ratio_adjust:          1 (fixed)
+    Userpeak2_area:                  3.50896186 +/- 10.9640132 (312.46%) (init = 1000)
+    Userpeak2_center:                5 (fixed)
+    Userpeak2_delta_center:          4.252992 (fixed)
+    Userpeak2_delta_sigma:           0 (fixed)
+    Userpeak2_e_linear:              0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Userpeak2_e_offset:             -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Userpeak2_e_quadratic:           0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Userpeak2_epsilon:               3.85 (fixed)
+    Userpeak2_fwhm_fanoprime:        1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Userpeak2_fwhm_offset:           0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Userpeak2_ratio:                 1 (fixed)
+    Userpeak2_ratio_adjust:          1 (fixed)
+    Userpeak3_area:                  5521.50869 +/- 360.145831 (6.52%) (init = 1000)
+    Userpeak3_center:                5 (fixed)
+    Userpeak3_delta_center:          1.15 (fixed)
+    Userpeak3_delta_sigma:           0.01700838 (fixed)
+    Userpeak3_e_linear:              0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Userpeak3_e_offset:             -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Userpeak3_e_quadratic:           0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Userpeak3_epsilon:               3.85 (fixed)
+    Userpeak3_fwhm_fanoprime:        1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Userpeak3_fwhm_offset:           0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Userpeak3_ratio:                 1 (fixed)
+    Userpeak3_ratio_adjust:          1 (fixed)
+    Userpeak4_area:                  18.9026481 +/- 18.6256612 (98.53%) (init = 1000)
+    Userpeak4_center:                5 (fixed)
+    Userpeak4_delta_center:          4.741507 (fixed)
+    Userpeak4_delta_sigma:           0 (fixed)
+    Userpeak4_e_linear:              0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Userpeak4_e_offset:             -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Userpeak4_e_quadratic:           0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Userpeak4_epsilon:               3.85 (fixed)
+    Userpeak4_fwhm_fanoprime:        1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Userpeak4_fwhm_offset:           0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Userpeak4_ratio:                 1 (fixed)
+    Userpeak4_ratio_adjust:          1 (fixed)
+    Zn_ka1_area:                     250.655333 +/- 45.3825350 (18.11%) (init = 1000)
+    Zn_ka1_center:                   8.6389 (fixed)
+    Zn_ka1_delta_center:             0 (fixed)
+    Zn_ka1_delta_sigma:              0 (fixed)
+    Zn_ka1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Zn_ka1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Zn_ka1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Zn_ka1_epsilon:                  3.85 (fixed)
+    Zn_ka1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Zn_ka1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Zn_ka1_ratio:                    1 (fixed)
+    Zn_ka1_ratio_adjust:             1 (fixed)
+    Zn_ka2_area:                     250.655333 +/- 45.3825349 (18.11%) == 'Zn_ka1_area'
+    Zn_ka2_center:                   8.6158 (fixed)
+    Zn_ka2_delta_center:             0.00000000 +/- 0.00000000  == 'Zn_ka1_delta_center'
+    Zn_ka2_delta_sigma:              0.00000000 +/- 0.00000000  == 'Zn_ka1_delta_sigma'
+    Zn_ka2_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Zn_ka2_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Zn_ka2_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Zn_ka2_epsilon:                  3.85 (fixed)
+    Zn_ka2_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Zn_ka2_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Zn_ka2_ratio:                    0.5138549 (fixed)
+    Zn_ka2_ratio_adjust:             1 (fixed)
+    Zn_kb1_area:                     250.655333 +/- 45.3825349 (18.11%) == 'Zn_ka1_area'
+    Zn_kb1_center:                   9.572 (fixed)
+    Zn_kb1_delta_center:             0 (fixed)
+    Zn_kb1_delta_sigma:              0 (fixed)
+    Zn_kb1_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Zn_kb1_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Zn_kb1_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Zn_kb1_epsilon:                  3.85 (fixed)
+    Zn_kb1_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Zn_kb1_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Zn_kb1_ratio:                    0.1371381 (fixed)
+    Zn_kb1_ratio_adjust:             1 (fixed)
+    Zn_kb3_area:                     250.655333 +/- 45.3825349 (18.11%) == 'Zn_ka1_area'
+    Zn_kb3_center:                   9.572 (fixed)
+    Zn_kb3_delta_center:             0 (fixed)
+    Zn_kb3_delta_sigma:              0 (fixed)
+    Zn_kb3_e_linear:                 0.01000000 +/- 0.00000000 (0.00%) == 'e_linear'
+    Zn_kb3_e_offset:                -0.01000000 +/- 0.00000000 (0.00%) == 'e_offset'
+    Zn_kb3_e_quadratic:              0.00000000 +/- 0.00000000  == 'e_quadratic'
+    Zn_kb3_epsilon:                  3.85 (fixed)
+    Zn_kb3_fwhm_fanoprime:           1.5111e-04 +/- 4.3373e-06 (2.87%) == 'fwhm_fanoprime'
+    Zn_kb3_fwhm_offset:              0.06669407 +/- 0.00437452 (6.56%) == 'fwhm_offset'
+    Zn_kb3_ratio:                    0.07011807 (fixed)
+    Zn_kb3_ratio_adjust:             1 (fixed)
+[[Correlations]] (unreported correlations are < 0.100)
+    C(fwhm_fanoprime, fwhm_offset)                       = -0.984
+    C(compton_amplitude, compton_angle)                  = -0.740
+    C(compton_amplitude, compton_fwhm_corr)              = 0.713
+    C(compton_angle, compton_fwhm_corr)                  = -0.689
+    C(compton_angle, elastic_coherent_sct_amplitude)     = 0.686
+    C(compton_fwhm_corr, elastic_coherent_sct_amplitude) = -0.685
+    C(compton_amplitude, elastic_coherent_sct_amplitude) = -0.673
+    C(compton_f_tail, compton_fwhm_corr)                 = -0.340
+    C(Cr_ka1_area, Mn_ka1_area)                          = -0.186
+    C(compton_f_tail, elastic_coherent_sct_amplitude)    = 0.158
+    C(compton_angle, compton_f_tail)                     = -0.147
+    C(compton_amplitude, compton_f_tail)                 = -0.128
+    C(fwhm_offset, P_ka1_area)                           = -0.124
+    C(fwhm_fanoprime, P_ka1_area)                        = 0.120

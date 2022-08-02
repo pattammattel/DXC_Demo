@@ -1,0 +1,16 @@
+DXC 
+- google route map -AI - for e point minimization
+	- also to choose xrf/xanes points in micro-XRF
+	- select random points and cross validation with known spectrum 
+	
+-Exploring Bayesian Optimization - book
+	
+-gaussian process regression 
+	- kernel function cookbook, **david Duvenaud **williams
+	- hyper parametes 
+	- guassian process latent variable model
+
+-NN
+	-captum.ai 
+	
+-2D X-ray diffraction - book

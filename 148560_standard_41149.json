@@ -1,0 +1,46 @@
+{
+    "name": "Micromatter 41149",
+    "serial": "41149",
+    "description": "GaP 21.4 (Ga=15.4, P=6.0) / CaF2 16.6 / V 23.4 / Mn 17.4 / Co 19.0 / Cu 20.3",
+    "element_lines": {
+        "Ga_K": {
+            "density": 15.4,
+            "fluorescence": 0.022968535159925686
+        },
+        "Ga_L": {
+            "density": 15.4,
+            "fluorescence": 5.439812394987163e-05
+        },
+        "P_K": {
+            "density": 6.0,
+            "fluorescence": 0.0001872467375187771
+        },
+        "Ca_K": {
+            "density": 8.521106557377049,
+            "fluorescence": 0.002337144959629017
+        },
+        "V_K": {
+            "density": 23.4,
+            "fluorescence": 0.00791040664004717
+        },
+        "Mn_K": {
+            "density": 17.4,
+            "fluorescence": 0.009438652788052785
+        },
+        "Co_K": {
+            "density": 19.0,
+            "fluorescence": 0.01691156925079109
+        },
+        "Cu_K": {
+            "density": 20.3,
+            "fluorescence": 0.022
+        }
+    },
+    "incident_energy": 12.000021,
+    "detector_channel": "sum",
+    "scaler_name": "sclr1_ch4",
+    "distance_to_sample": 0.0,
+    "creation_time_local": "2021-12-20T23:07:46+00:00",
+    "source_scan_id": 148560,
+    "source_scan_uid": "44c126a4-6a3f-4eb4-a14f-6a3cce5f45c9"
+}
